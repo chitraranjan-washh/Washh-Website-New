@@ -1,0 +1,44 @@
+.tnc-space{
+	margin-top: 13%;
+}
+.heading-tnc{
+	font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+.paras-tnc{
+	font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+}
+.li-tnc{
+	margin-top: 2%;
+}
+
+@media only screen and (max-width: 1060px){
+	.tnc-space{
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 786px){
+	.tnc-space{
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 670px){
+	.tnc-space{
+		margin-top: 25%;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	.tnc-space{
+		margin-top: 35%;
+	}
+	.li-tnc{
+		margin-top: 5%;
+	}
+}

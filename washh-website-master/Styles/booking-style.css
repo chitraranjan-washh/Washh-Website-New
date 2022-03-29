@@ -1,0 +1,102 @@
+.booking-container{
+    width: 100%;
+    height: 340px;
+    background: linear-gradient(92.22deg, 
+        #15BBB1 0.21%, 
+        rgba(17, 175, 209, 0.87) 
+        100%);
+}
+.bookTextContainer{
+    padding: 5%;
+    text-align: center;
+}
+.bookText{
+    font-family: Roboto Slab;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bookTextNumber{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    color: #fff;
+}
+.bookTextOffer{
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1600px){
+    .bookText{
+        font-size: 28px;
+        line-height: 60px;
+    }
+    .bookTextNumber{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .bookTextOffer{
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .bookText{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .bookTextNumber{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .bookTextOffer{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .bookText{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .bookTextNumber{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .bookTextOffer{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .bookText{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bookTextNumber{
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .bookTextOffer{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 260px){
+    .bookText{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .bookTextNumber{
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .bookTextOffer{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

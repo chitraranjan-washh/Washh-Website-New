@@ -1,0 +1,85 @@
+.box-content{
+	margin-top: 13%;
+	height: 540px;
+	background: #C4C4C4;
+}
+
+.heading-invest{
+	margin-left: 5%;
+	font-family: Roboto Slab;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.flex-container-invest {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.flex-container-col{
+	flex: 50%;
+	background-color: 'lightblue';
+}
+.flex-container-colM{
+	flex: 10%;
+	background-color: 'lightblue';
+}
+
+.img-invest{
+	width: 180px;
+    height: 180px;
+    background: #E4E4E4;
+    border: 1px solid #ECE8E8;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.subhead-invest{
+	font-family: Roboto Slab;
+	font-size: 20px;
+	font-weight: bold;
+	align-items: center;
+	padding-top: 3%;
+}
+
+.text-invest{
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	color: #4F4F4F;
+}
+
+.bton{
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.enquire-btn{
+	font-family: Roboto Slab;
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: #2870B9;
+	border-radius: 8px;
+	padding: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.enquire-btn:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 670px){
+	.flex-container-invest {
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-container-invest > div{
+		margin-top: 10%;
+	}
+}

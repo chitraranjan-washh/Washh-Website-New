@@ -1,0 +1,91 @@
+.download-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+.download-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.download-flex-left {
+    flex: 50%;
+}
+.download-flex-right {
+    flex: 50%;
+}
+.download-heading-text{
+    margin-top: 10%;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 72px;
+    color: #212121;
+}
+.download-content{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.reponsive-image{
+    width: 70%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+.desktop-app-link{
+    color: white; 
+    background-color: #3474eb;
+    padding: 2%; 
+    border-radius: 4px;
+    text-decoration: none;
+}
+.mobile-app-link{ 
+    color: white; 
+    background-color: #3474eb;
+    padding: 5%; 
+    border-radius: 4px;
+    text-decoration: none    
+}
+
+@media only screen and (max-width: 768px){
+    .download-heading-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .download-flex-container {
+        flex-direction: row;
+    }
+    .download-content{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .reponsive-image{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .reponsive-image{
+        width: 120%;
+        height: 100%;
+    }
+    .mobile-app-link{
+        padding: 5%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .android-download-image{
+        margin-top: -30%;
+        width: 70%;
+        height: auto;
+    }
+    .mobile-app-link{
+        padding: 5%;
+        margin-left: -30%;
+    }
+}
+

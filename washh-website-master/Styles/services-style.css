@@ -1,0 +1,110 @@
+/* .serv-main{ */
+.services-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.service-heading-text{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 72px;
+    color: #212121;
+}
+.service-paragraph-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.serivice-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.serivice-flex {
+    flex: 50%;
+    border-radius: 10px;
+}
+.img-dimensions{
+    width: 272px;
+    height: 369px;
+}
+.img1{
+    background-image: url("../images/Wash-Fold.jpg");
+}
+.img2{
+    background-image: url("../images/Wash-Iron.jpg");
+}
+.img3{
+    background-image: url("../images/Dry-Cleaning.jpg");
+}
+.img1, .img2, .img3{
+    margin-left: 20px;
+}
+.text-over-image{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-top: 90%;
+    padding-left: 10%;
+}
+
+.displayweb{ display: block; }
+.displaymob{ display: none; }
+.displaymobxs{ display: none; }
+
+* {
+  box-sizing: border-box;
+}
+
+.img-dimensions:hover{
+    box-shadow: 1px 0px 5px 3px rgba(179,179,179,0.75);
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 870px){
+    .img-dimensions{
+        width: 168px;
+        height: 228px;
+    } 
+    .img1, .img2, .img3{
+        background-size: 168px 228px;
+    }
+    .text-over-image{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 605px){
+    .img-dimensions{
+        width: 168px;
+        height: 228px;
+    } 
+    .service-para{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .displayweb{ display: none; }
+
+    .displaymob{ display: block; }
+} 
+
+@media only screen and (max-width: 430px){
+    .img-dimensions{
+        width: 130px;
+        height: 150px;
+    } 
+    .img1, .img2, .img3{
+        background-size: 130px 150px;
+    }
+    .text-over-image{
+        font-size: 18px;
+        padding-top: 80%;
+        padding-left: 15%;
+    }
+}
+ 
+@media only screen and (max-width: 300px){
+    .displaymobxs{ display: block; }
+    .nodisplay-xs{ display: none; }
+}

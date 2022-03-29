@@ -1,0 +1,42 @@
+.howitworks-container{
+    background: linear-gradient(273.73deg, 
+                #F3F2F2 0%, 
+                rgba(233, 233, 233, 0.4) 
+                99.54%);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.howitworks-heading{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 72px;
+    color: #212121;
+}
+.howitworks-round-div{
+    text-align: center;
+}
+.howitworks-round-image{
+    width: 180px;
+    height: 180px;
+    left: 125px;
+    top: 1778px;
+    background: #E4E4E4;
+    border: 1px solid #ECE8E8;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.howitworks-round-image:hover{
+    box-shadow: 1px 0px 5px 3px rgba(179,179,179,0.75);
+    transition-duration: 1s;
+}
+.howitworks-description-text{
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}

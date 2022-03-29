@@ -1,0 +1,105 @@
+.stop-worrying-container{
+    margin-top: 13%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.stop-worrying-heading-text{
+    font-family: Roboto Slab;
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 1.2;
+}
+.description-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F4F4F;
+}
+.download-app-text{
+    color: #212121;
+    font-family: Roboto Slab;
+    font-weight: 500;
+    font-size: 20px;
+}
+.offer-text{
+    color: #E87B50;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.current-serving{
+    color: #212121;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px    
+}
+.responsive-woman {
+    width: 100%;
+    height: auto;
+    float: right;
+    border-radius: 0px 0px 300px 150px;
+}
+@media only screen and (max-width: 1071px){
+    .stop-worrying-container{
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width: 750px){
+    .stop-worrying-container{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .stop-worrying-container{
+        margin-top: 25%;
+    }
+    .description-text{font-size: 16px;}
+}
+@media only screen and (max-width: 530px){
+    .stop-worrying-container{
+        margin-top: 30%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .stop-worrying-container{
+        margin-top: 20%;
+    }
+    .responsive-woman, .line-disable{
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) and (min-width: 250px){
+    .stop-worrying-container{
+        margin-top: 30%;
+    }
+    .download-app-text{
+        margin-left: 15%;
+    }
+    .stop-worrying-heading-text{
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .description-text{
+        text-align: center;
+        margin-bottom: -5%;
+    }
+    .offer-text{
+        text-align: center;
+        padding-left: 5%;
+    }
+    .download-image{
+        margin-left: 10%;
+    }
+    .current-serving{
+        font-size: 13px;
+        text-align: center;
+    }
+    .download-app-link{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,53 @@
+.top-spacing{
+	margin-top: 13%;
+}
+
+.faq-container{
+	font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 39px;
+    color: #212121;
+}
+.faq-heading{
+	font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 28px;
+    color: #212121;
+}
+
+.faq-paragraph{
+	font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 1060px){
+	.top-spacing{
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 786px){
+	.top-spacing{
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 670px){
+	.top-spacing{
+		margin-top: 25%;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	.top-spacing{
+		margin-top: 40%;
+	}
+	.faq-heading{
+		font-size: 24px;
+	}
+	.faq-paragraph{
+	    font-size: 16px;
+	}
+}

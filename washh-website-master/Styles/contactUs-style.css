@@ -1,0 +1,33 @@
+.contact-container{
+    margin:10% !important;
+    margin-top: 15% !important;
+}
+
+.contact-column{
+    padding: 3%; 
+    background-color: #f0f0f0;
+}
+.contact-heading-text{
+    font-size: 50px;
+}
+.contact-content-text{
+    font-size: 20px;
+}
+.contact-followUs-text{
+    font-size: 24px;
+}
+.social-media-link{
+    text-decoration: none; 
+    font-size: 30px;
+}
+.social-media-icon{
+    color: #4F4F4F;
+}
+
+.contact-column-map{
+    padding: 1%;
+}
+.contact-map-iframe{
+    border: 1px solid rgb(146, 145, 145); 
+    padding: 1%
+}
