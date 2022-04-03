@@ -12,7 +12,7 @@ document.write(`
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">
                     <img src="" width="100" height="100" class="howitworks-round-image"/>
                     <p class="howitworks-description-text">
-                        Please make a booking based on your needs <br/>(Wash and Fold, Wash and Iron, Ironing, etc.) through our app by selecting a time and date convenient to you.
+                        Please make a booking based on your needs (Wash and Fold, Wash and Iron, Ironing, etc.) through our app by selecting a time and date convenient to you.
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">

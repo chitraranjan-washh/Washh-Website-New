@@ -7,8 +7,7 @@ document.write(`
             <br/>
             <h2 class="why-heading-text">Why Washh</h2>
             <p class="why-description-text">
-                Washh makes everything laundry quick, painless, and affordable. 
-                <br/>And there is more - 
+                Washh makes everything laundry quick, painless, and affordable. And there is more...
             </p>
         </div>
         <div class="row m-1">

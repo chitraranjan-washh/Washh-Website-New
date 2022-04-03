@@ -11,9 +11,9 @@ document.write(`
         <div class="row m-3">
             <div class="col-md-6">
                 <h1 class="stop-worrying-heading-text">
-                    Stop Worrying About Your Laundry!</h1>
-                <br />
-                
+                   Hi <span id="city-name"></span>, we're here!
+                </h1>
+            
                 <p class="description-text">
                     Do you want to look your best but are too pressed for time? 
                     <br/>Washh is an affordable and convenient premium laundry service that delivers world-class cleaning, including washing, ironing, and laundry dry-cleaning, as well as free pick up and delivery in record time.
@@ -36,14 +36,6 @@ document.write(`
                     </div>
                     <br /><hr class="line-disable"/> <br />
                 </div>
-
-                <p class="current-serving">
-                    Currently serving in: 
-                    <a href="./guwahati.html" class="current-serving"><u><b>Guwahati</b></u></a>, 
-                    <a href="./dibrugarh.html" class="current-serving"><u><b>Dibrugarh</b></u></a>, 
-                    <a href="./darbhanga.html" class="current-serving"><u><b>Darbhanga</b></u></a>, 
-                    <a href="./patna.html" class="current-serving"><u><b>Patna</b></u></a>.
-                </p>
             </div>
 
             <div class="col-md-6">

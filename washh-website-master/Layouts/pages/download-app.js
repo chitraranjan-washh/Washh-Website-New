@@ -14,8 +14,7 @@ document.write(`
             </h2><br />
             
             <p class="download-content">
-                Get your dirty laundry picked, cleaned, ironed, and delivered at your convenience with Washh. 
-                <br/><b>Download the app now.</b><br/><br/>
+                Get your dirty laundry picked, cleaned, ironed, and delivered at your convenience with Washh. <b>Download the app now.</b><br/><br/>
             </p>
             <a id="download-link"></a>
         </div>

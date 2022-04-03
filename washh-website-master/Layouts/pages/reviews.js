@@ -12,7 +12,7 @@ document.write(`
 	</h2>
 	<div class="thumbnail">
 		<div id="DemoCarousel" class="carousel slide" 
-		data-interval="2000" data-ride="carousel">
+		data-interval="4000" data-ride="carousel">
 
 			<ol class="carousel-indicators">
 				<li data-target="#DemoCarousel" data-slide-to="0" 
@@ -65,14 +65,14 @@ document.write(`
 
 			</div>
 			
-			<a class="carousel-control left i-navigation" 
+			<!--<a class="carousel-control left i-navigation" 
 			href="#DemoCarousel" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left"></span>
 			</a>
 			<a class="carousel-control right i-navigation" href="#DemoCarousel" 
 			data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right" ></span>
-			</a>
+			</a>-->
 		</div>
 	</div>
 </div>
