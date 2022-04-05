@@ -13,36 +13,94 @@ document.write(`
 
         <div class="serivice-flex-container">
             <div>
-                <div class="serivice-flex img-dimensions img1">
-                    <h2 class="text-over-image">Wash <br/>& Fold</h2>
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Wash.png">
+                    <p class="text-over-image">Wash & Fold</p>
                 </div>
             </div>
             
             <div>
-                <div class="nodisplay-xs serivice-flex img-dimensions img2">
-                    <h2 class="text-over-image">Wash <br/>& Iron</h2> 
+                <div class="nodisplay-xs serivice-flex img-dimensions">
+                    <img src="./images/Wash-Iron.png">
+                    <p class="text-over-image">Wash & Iron</p> 
                 </div>
             </div>
+            
             <div class="displayweb">
-                <div class="serivice-flex img-dimensions img3">
-                    <h2 class="text-over-image">Dry <br/>Clean</h2>
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Iron.png">
+                    <p class="text-over-image">Iron</p>
                 </div>
             </div>
+
+            <div class="displayweb">
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Dry-Clean.png">
+                    <p class="text-over-image">Dry Clean</p>
+                </div>
+            </div>
+
+            <div class="displayweb">
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Premium.png">
+                    <p class="text-over-image">Premium</p>
+                </div>
+            </div>
+
+            <div class="displayweb">
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Winter.png">
+                    <p class="text-over-image">Winter Essentials</p>
+                </div>
+            </div>
+
         </div>
             
         <div class=" serivice-flex-container">
-            <div class="displaymobxs">
-                <div class="serivice-flex img-dimensions img2">
-                    <h2 class="text-over-image">Wash <br/>& Iron</h2> 
+            <div class="displaymob">
+                <div class="serivice-flex img-dimensions">
+                    <img src="./images/Wash-Iron.png">
+                    <p class="text-over-image">Wash & Iron</p> 
                 </div>
             </div>
         </div>
 
         <div class=" serivice-flex-container">
             <div class="displaymob">
-                <div class="serivice-flex img-dimensions img3" 
+                <div class="serivice-flex img-dimensions" 
                     style="margin-right: 50%;">
-                    <h2 class="text-over-image">Dry <br/>Clean</h2>
+                    <img src="./images/Iron.png">
+                    <p class="text-over-image">Iron</p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" serivice-flex-container">
+            <div class="displaymob">
+                <div class="serivice-flex img-dimensions" 
+                    style="margin-right: 50%;">
+                    <img src="./images/Dry-Clean.png">
+                    <p class="text-over-image">Dry Clean</p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" serivice-flex-container">
+            <div class="displaymob">
+                <div class="serivice-flex img-dimensions" 
+                    style="margin-right: 50%;">
+                    <img src="./images/Premium.png">
+                    <p class="text-over-image">Premium</p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" serivice-flex-container">
+            <div class="displaymob">
+                <div class="serivice-flex img-dimensions" 
+                    style="margin-right: 50%;">
+                    <img src="./images/Winter.png">
+                    <p class="text-over-image">Winter Essentials</p>
                 </div>
             </div>
         </div>

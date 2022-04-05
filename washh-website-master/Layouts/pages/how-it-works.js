@@ -10,25 +10,25 @@ document.write(`
 
             <div class="row">
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">
-                    <img src="" width="100" height="100" class="howitworks-round-image"/>
+                    <img src="./images/HIW-1.png" height="80" class="howitworks-round-image"/>
                     <p class="howitworks-description-text">
                         Please make a booking based on your needs (Wash and Fold, Wash and Iron, Ironing, etc.) through our app by selecting a time and date convenient to you.
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">
-                    <img src="" width="100" height="100" class="howitworks-round-image"/>
+                    <img src="./images/HIW-2.png" height="100" class="howitworks-round-image"/>
                     <p class="howitworks-description-text">
                         Our executives will pick up your clothes at the scheduled date and time. Pickup and delivery are free.
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">
-                    <img src="" width="100" height="100" class="howitworks-round-image"/>
+                    <img src="./images/HIW-3.png" height="100" class="howitworks-round-image"/>
                     <p class="howitworks-description-text">
                         The clothes will be processed (washed, ironed, folded) at our stores according to the service you have selected. 
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 howitworks-round-div pt-2">
-                    <img src="" width="100" height="100" class="howitworks-round-image"/>
+                    <img src="./images/HIW-4.png" height="100" class="howitworks-round-image"/>
                     <p class="howitworks-description-text">
                         Your clean clothes will be delivered after 24 hours at your selected time and date.
                     </p>

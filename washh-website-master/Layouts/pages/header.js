@@ -1,18 +1,12 @@
 document.write(`
     <div class="header-mobile-view">
         <div class="row header-container">
-            <div class="row"></div>
-            <div class="col-md-1 col-sm-1 col-xs-1"></div>
-            <div class="header-text col-md-10 col-sm-10 col-xs-10">
-                <p id="user_location"></p>
-                <b>Download our app now and Get 20% Off on your 1st order
-                    &nbsp; | &nbsp;  
-                Download Now: <a href="">For Android</a>
-                &nbsp;  <a href="">For iPhone</a>
-                &nbsp; | &nbsp; Or Call/Whatsapp on +91-7575901444
+            <div class="header-text col-md-12 col-sm-12 col-xs-12">
+                <b>Download our app now and Get 20% Off on your 1st order | Download Now: <a href="">For Android</a>
+                <a href="">For iPhone</a>
+                | Or Call/Whatsapp on +91-7575901444
                 </b>
-                </div>
-            <div class="col-md-1 col-sm-10 col-xs-1"></div>
+            </div>
         </div>
     </div>
 `);

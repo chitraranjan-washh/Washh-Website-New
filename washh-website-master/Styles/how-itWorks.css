@@ -17,19 +17,12 @@
     text-align: center;
 }
 .howitworks-round-image{
-    width: 180px;
-    height: 180px;
+    width: auto;
+    height: 80px;
     left: 125px;
     top: 1778px;
-    background: #E4E4E4;
-    border: 1px solid #ECE8E8;
-    box-sizing: border-box;
-    border-radius: 50%;
 }
-.howitworks-round-image:hover{
-    box-shadow: 1px 0px 5px 3px rgba(179,179,179,0.75);
-    transition-duration: 1s;
-}
+
 .howitworks-description-text{
     font-family: Roboto Slab;
     font-weight: 400;

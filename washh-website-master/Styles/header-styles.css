@@ -7,6 +7,7 @@
     text-align: center;
     height: 52px;
     z-index:1;  
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 1600px){
@@ -16,6 +17,7 @@
         font-size: 14px;
         font-weight: 700px;
         color: #4F4F4F;
+        text-align: center;
     }
     .header-container{
         background-color: #FFC50A;
@@ -25,6 +27,7 @@
         top: 0;
         text-align: center;
         height: 52px;  
+        padding-top: 10px;
     }
 }
 @media only screen and (max-width: 696px){
@@ -34,6 +37,7 @@
         font-size: 14px;
         font-weight: 700px;
         color: #4F4F4F;
+        text-align: center;
     }
     .header-container{
         background-color: #FFC50A;
@@ -53,6 +57,7 @@
         font-size: 12px;
         font-weight: 700px;
         color: #4F4F4F;
+        text-align: center;
     }
     .header-container{
         background-color: #FFC50A;
