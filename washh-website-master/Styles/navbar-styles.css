@@ -1,3 +1,9 @@
+.main-container{
+    width: 100%;
+    float: left;
+    overflow-x: hidden;
+}
+
 .nav-container {
     position: fixed;
     width: 100%;

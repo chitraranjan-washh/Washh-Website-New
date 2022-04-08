@@ -74,6 +74,40 @@
 	text-decoration: none;
 }
 
+.form-container{
+    padding: 3%;
+    background-color: rgb(228, 228, 228);
+}
+.form-heading-size{
+    margin-top: 40px;
+}
+.enquiry-form{
+	width: 60%; 
+    margin: 40px 5% 0 5%;
+}
+.enquiry-button{
+    background-color: #5d6bc4; 
+    color: white;
+    padding: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+}
+.enquiry-button:hover{
+    background-color: #364397; 
+    transition-duration: 1s;
+}
+
+.form-control{
+	height:52px !important;
+	font-size: 16px !important;
+	margin: 10px 0 ;
+}
+
+textarea .form-control{
+	height: 70px !important;
+}
+
 @media only screen and (max-width: 670px){
 	.flex-container-invest {
 		display: flex;

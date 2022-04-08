@@ -67,8 +67,7 @@ document.write(`
 
         <div class=" serivice-flex-container">
             <div class="displaymob">
-                <div class="serivice-flex img-dimensions" 
-                    style="margin-right: 50%;">
+                <div class="serivice-flex img-dimensions">
                     <img src="./images/Iron.png">
                     <p class="text-over-image">Iron</p>
                 </div>
@@ -77,8 +76,7 @@ document.write(`
 
         <div class=" serivice-flex-container">
             <div class="displaymob">
-                <div class="serivice-flex img-dimensions" 
-                    style="margin-right: 50%;">
+                <div class="serivice-flex img-dimensions">
                     <img src="./images/Dry-Clean.png">
                     <p class="text-over-image">Dry Clean</p>
                 </div>
@@ -87,8 +85,7 @@ document.write(`
 
         <div class=" serivice-flex-container">
             <div class="displaymob">
-                <div class="serivice-flex img-dimensions" 
-                    style="margin-right: 50%;">
+                <div class="serivice-flex img-dimensions">
                     <img src="./images/Premium.png">
                     <p class="text-over-image">Premium</p>
                 </div>
@@ -97,8 +94,7 @@ document.write(`
 
         <div class=" serivice-flex-container">
             <div class="displaymob">
-                <div class="serivice-flex img-dimensions" 
-                    style="margin-right: 50%;">
+                <div class="serivice-flex img-dimensions">
                     <img src="./images/Winter.png">
                     <p class="text-over-image">Winter Essentials</p>
                 </div>

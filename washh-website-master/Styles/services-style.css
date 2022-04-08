@@ -17,7 +17,7 @@
     line-height: 30px;
 }
 .serivice-flex-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 .serivice-flex {

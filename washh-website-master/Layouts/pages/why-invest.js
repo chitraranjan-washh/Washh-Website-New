@@ -42,7 +42,14 @@ document.write(`
 		</div>
 
 		<br/><br/>
-		<div class="bton"><br/><a href="" class="enquire-btn">Enquire Now</button><br/></a>
+		<div class="bton"><br/><a class="enquire-btn scroll" target="Enquiry">Enquire Now</button><br/></a>
 		<br/>
 	</div>
 `);
+
+
+$('.scroll').click(function() {
+	$('body').animate({
+		scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
+	}, 500);
+});

@@ -38,8 +38,6 @@ document.write(`
             <h5 class="heading-text ml-3 mt-5">
                 Company
             </h5>
-            <a href="" class="footer-text text-hover ml-3">About Us</a><br/>
-            <a href="" class="footer-text text-hover ml-3">Pricing</a><br/>
             <a href="./contactUs.html" class="footer-text text-hover ml-3">Contact Us</a><br/>
         </div>
         <div class="col-md-2"
@@ -47,7 +45,6 @@ document.write(`
             <h5 class="heading-text ml-3 mt-5">
                 Legal
             </h5>
-            <a href="" class="footer-text text-hover ml-3">Refund Policy</a><br/>
             <a href="./privacy-policy.html" class="footer-text text-hover ml-3">Privacy Policy</a><br/>
             <a href="./faq.html" class="footer-text text-hover ml-3">FAQs</a><br/>
             <a href="./tnc.html" class="footer-text text-hover ml-3">Terms & Condition</a>
@@ -57,11 +54,11 @@ document.write(`
             <h5 class="heading-text ml-3 mt-5">
                 Location
             </h5>
-                <a href="./" class="footer-text text-hover ml-3">Guwahati</a> <br/>
+                <a href="./guwahati.html" class="footer-text text-hover ml-3">Guwahati</a> <br/>
                 <a href="./dibrugarh.html" class="footer-text text-hover ml-3">Dibrugarh</a> <br/>
                 <a href="./darbhanga.html" class="footer-text text-hover ml-3">Darbhanga</a> <br/>
-                <a href="" class="footer-text text-hover ml-3">Chennai</a> <br/>
-        </div>
+                <a href="./patna.html" class="footer-text text-hover ml-3">Patna</a> <br/>
+        </div> 
         <div class="col-md-2"></div>
     </div>
 `);

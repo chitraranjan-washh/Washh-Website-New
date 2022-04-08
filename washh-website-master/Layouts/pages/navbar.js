@@ -5,7 +5,7 @@ document.write(`
 <div class="nav-container" id="myTopnav">
     <div class="header-logo">
         <a href="./index.html">
-            <img src="./images/Washh-logo.jpg" class="washh-logo-image" width="45" height="50"/>
+            <img src="./images/wash-horizontal.png" class="washh-logo-image" height="50"/>
         </a>
     </div>
     <div class="links" id="nav-links">
