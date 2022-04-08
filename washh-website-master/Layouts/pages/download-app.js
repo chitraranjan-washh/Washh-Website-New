@@ -37,23 +37,19 @@ function resizeDownlds(){
     if(window.innerWidth > 786){ //For Big Screens (Desktop/Laptop)
         document.getElementById("download-link").innerHTML="";
         document.getElementById("download-link").innerHTML+=`
-        <div class="links">
             <a href="https://play.google.com/store/apps/details?id=com.washh" 
             class="desktop-app-link">
                 Download for Andoid
             </a>
-        </div>
         `;
     }else if(window.innerWidth <= 786){ //For small Screens (Mobile)
         document.getElementById("download-link").innerHTML="";
         if(mobos=="Not Mobile" || deskos=="Windows"){ //OS is not andoid or iOS
             document.getElementById("download-link").innerHTML+=`
-                <div class="links">
                     <a href="https://play.google.com/store/apps/details?id=com.washh"
                     class="mt-1 mobile-app-link">
                         Download for Andoid
                     </a>
-                </div>
             `;
         }else if(mobos=="Andoid" || deskos=="Android"){ //OS is Android
             document.getElementById("download-link").innerHTML+=`

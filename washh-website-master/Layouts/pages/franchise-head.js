@@ -19,7 +19,7 @@ document.write(`
                 </p>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6" id="banner-img">
                 <!-- Image - Woman with clothes -->
                 <img src="./images/wash_view2.png" class="responsive-woman" alt="women"/>
             </div>   
@@ -57,6 +57,8 @@ function resizeStopWorying(){
                 </a>
             </div>
             `;
+            document.getElementById("banner-img").style.display="none";
+
         }else if(mobos=="Andoid" || deskos=="Android"){
             document.getElementById("download-app").innerHTML+=`
                 <a href="https://play.google.com/store/apps/details?id=com.washh">

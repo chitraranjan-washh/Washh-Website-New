@@ -3,26 +3,16 @@ var deskos=detectDesktopOS();
 
 document.write(`
 <div class="nav-container" id="myTopnav">
-    <a href="./index.html" class="ml-5">
-        <img src="./images/Washh-logo.jpg" class="washh-logo-image"
-        width="45" height="50"/>
-    </a>
-    <div class="noneed" style="visibility: hidden;">
-        <a class="noneed1">For Franchise</a>
-        <a class="noneed2">For Business</a>
-        <!-- <a class="noneed3">Pricing</a>
-        <a class="noneed4">Blog</a> -->
+    <div class="header-logo">
+        <a href="./index.html">
+            <img src="./images/Washh-logo.jpg" class="washh-logo-image" width="45" height="50"/>
+        </a>
     </div>
-    <div style="float:right; margin-top: 16px;">
-        <!-- <a href="" class="pl-5">About Us</a> -->
+    <div class="links" id="nav-links">
         <a href="./franchise.html" class="pl-5">For Franchise</a>
         <a href="./business.html" class="pl-5">For Business</a>
-        <a id="appLink"></a>
+        <a id="appLink" style="padding-top:0;"></a>
     </div>
-
-    <a href="javascript:void(0);" class="icon" onclick="changeResponsiveClasses()">
-        <i class="fa fa-bars"></i>
-    </a>
 </div>
 `);
 
@@ -31,22 +21,13 @@ $(document).ready(function($) {
     $(window).resize();
 });
 
-function changeResponsiveClasses() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "nav-container") {
-        x.className += " responsive";
-    } else {
-        x.className = "nav-container";
-    }
-}
-
 function resizeNavbar(){
-    if(window.innerWidth > 786){
+    if(window.innerWidth > 1024){
         document.getElementById("appLink").innerHTML="";
         document.getElementById("appLink").innerHTML+=`
-            <a href="https://play.google.com/store/apps/details?id=com.washh" style="margin: -10px;">Download for Android</a>
+            <a href="https://play.google.com/store/apps/details?id=com.washh">Download for Android</a>
         `;
-    }else if(window.innerWidth <= 786){
+    }else if(window.innerWidth <= 1024){
         document.getElementById("appLink").innerHTML="";
         if(mobos=="Not Mobile" || deskos=="Windows"){
             document.getElementById("appLink").innerHTML+=`
@@ -64,4 +45,5 @@ function resizeNavbar(){
             `;
         }
     }
+    
 }
